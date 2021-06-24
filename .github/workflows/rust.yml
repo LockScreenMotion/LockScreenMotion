@@ -1,0 +1,60 @@
+name: Rust
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build
+      run: cargo build --verbose
+    - name: Run tests
+      run: cargo test --verbose
+Installed Options & Packages
+Contact dealer to confirm availability.
+Executive Package
+$3,500
+M Double-Clutch Transmission w/Drivelogic
+$2,900
+Lighting Package
+$1,900
+Driver Assistance Plus
+$1,700
+19" Black Double-Spoke Light Alloy Wheels w/Mixed Performance Tires
+$1,200
+Enhanced USB and Bluetooth Plus Smartphone Integration
+$350
+Total Value (at the time of build)
+$11,550
+Top Features & Specs
+Comfort & Convenience
+Heated Steering Wheel
+Keyless Entry
+Multi-Zone Climate Control
+Navigation System
+Rain-Sensing Wipers
+Rear Heated Seats
+Entertainment
+Harman/Kardon Sound System
+Smart Device Integration
+Safety
+Blind Spot Monitor
+Head-Up Display
+Lane Departure Warning
+Parking Sensors
+Rear-View Camera
+Stability Control
+Engine & Exterior
+Adaptive Headlights
+Heated Mirrors
+Turn Signal Mirrors
